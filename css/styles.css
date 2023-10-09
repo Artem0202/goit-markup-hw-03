@@ -28,7 +28,7 @@ img {
   display: block;
 }
 
-/* footer */
+/* header */
 
 .container {
   display: flex;
@@ -76,6 +76,7 @@ img {
 .navigation-menu-item {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
+  padding: 24px 0;
 }
 .navigation-menu-item:hover,
 .navigation-menu-item:focus {
@@ -132,7 +133,7 @@ img {
   border: 0;
   border-radius: 4px;
   padding: 16px 32px;
-  min-width: 196px;
+  min-width: 169px;
 }
 .titel-page-button:hover,
 .titel-page-button:focus {
@@ -282,6 +283,7 @@ margin-bottom: 8px;
   margin-bottom: 16px;
 }
 .logo-second-part-down {
+  display: inline-block;
   color: var(--CLOUD, #f4f4fd);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
