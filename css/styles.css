@@ -282,8 +282,10 @@ margin-bottom: 8px;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.logo-second-part-down {
+.container a {
   display: inline-block;
+}
+.logo-second-part-down {
   color: var(--CLOUD, #f4f4fd);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
