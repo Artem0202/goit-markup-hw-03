@@ -40,6 +40,7 @@ display: flex;
 }
 .top-line .top-line-position {
   justify-content: space-between;
+  align-items: center;
 }
 .top-line {
   border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
