@@ -31,12 +31,14 @@ img {
 /* header */
 
 .container {
-  display: flex;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-.top-line .container {
+.top-line-position {
+display: flex;
+}
+.top-line .top-line-position {
   justify-content: space-between;
 }
 .top-line {
@@ -282,9 +284,7 @@ margin-bottom: 8px;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.container a {
-  display: inline-block;
-}
+
 .logo-second-part-down {
   color: var(--CLOUD, #f4f4fd);
   font-family: 'Raleway', sans-serif;
