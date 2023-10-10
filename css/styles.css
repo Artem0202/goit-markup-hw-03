@@ -38,7 +38,7 @@ img {
 .top-line-position {
 display: flex;
 }
-.top-line .top-line-position {
+.top-line-position {
   justify-content: space-between;
   align-items: center;
 }
